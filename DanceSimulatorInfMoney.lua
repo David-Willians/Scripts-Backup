@@ -1,0 +1,1 @@
+game:GetService("ReplicatedStorage").NETWORK.AddValue:FireServer("Coins", math.huge)
