@@ -25,11 +25,12 @@ loadingText.TextAlignment = Enum.TextAlignment.Center
 loadingText.Font = Enum.Font.GothamBold
 
 -- Remover a tela de carregamento após 5 segundos
-wait(5)
+wait(1)
 loadingScreen:Destroy()
-
+print("Tela de carregamento removida!")
 -- A seguir, o código do script original
 
+print("Iniciando o script principal...")
 getgenv().config = getgenv().config or {
     frutaSelecionada = "Flame",
     delayEntreRaids = 10,
